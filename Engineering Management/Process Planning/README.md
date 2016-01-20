@@ -9,7 +9,7 @@ Learnign Path :
     - Qualified
         - Software development process :white_check_mark:
         - Software development activities :white_check_mark:
-        - Waterfall Concept
+        - Waterfall Concept :white_check_mark:
         - Agile software development concept
         - Lean software development concep
         - Scrum
