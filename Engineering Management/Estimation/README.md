@@ -14,7 +14,7 @@ Learnign Path :
         - Analogy-based estimations 
         - Story based estimations         
 		
-    - Competent :eight_spoked_asterisk:
+    - Competent 
         - Cone of Uncertainty 
         - Source of Estimation Errors 
         - Dis economies of Scale 
