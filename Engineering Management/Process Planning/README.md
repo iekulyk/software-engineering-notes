@@ -4,7 +4,7 @@ Be A Pro
 
 Learnign Path : 
 
-- Engineering Management :eight_spoked_asterisk:
+- Process Planning :eight_spoked_asterisk:
 
     - Qualified :white_check_mark:
         - Software development process :white_check_mark:
