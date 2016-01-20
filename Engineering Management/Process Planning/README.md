@@ -7,8 +7,8 @@ Learnign Path :
 - Engineering Management :eight_spoked_asterisk:
 
     - Qualified
-        - Software development process
-        - Software development activities
+        - Software development process :white_check_mark:
+        - Software development activities :white_check_mark:
         - Waterfall Concept
         - Agile software development concept
         - Lean software development concep
