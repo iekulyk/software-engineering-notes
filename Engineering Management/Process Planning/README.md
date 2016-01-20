@@ -6,14 +6,14 @@ Learnign Path :
 
 - Engineering Management :eight_spoked_asterisk:
 
-    - Qualified
+    - Qualified :white_check_mark:
         - Software development process :white_check_mark:
         - Software development activities :white_check_mark:
         - Waterfall Concept :white_check_mark:
         - Agile software development concept :white_check_mark:
         - Lean software development concep :white_check_mark:
-        - Scrum
-        - Kanban
+        - Scrum :white_check_mark:
+        - Kanban :white_check_mark:
 		
     - Competent
         - Software Development Methodologies
