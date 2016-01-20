@@ -4,7 +4,7 @@ Be A Pro
 
 Learnign Path : 
 
-- Engineering Management
+- Engineering Management :eight_spoked_asterisk:
     - Process Planning
     - Estimation
     
