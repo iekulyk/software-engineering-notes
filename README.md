@@ -47,4 +47,5 @@ Learnign Path :
 
 
 ------------------------------------------------------------------------
-Finished branches will be marked with a :heavy_check_mark:
+Finished branches will be marked with a :white_check_mark:
+In progress branches will be marked with a :eight_spoked_asterisk:
