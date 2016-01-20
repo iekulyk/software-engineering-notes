@@ -15,7 +15,7 @@ Learnign Path :
         - Scrum :white_check_mark:
         - Kanban :white_check_mark:
 		
-    - Competent
+    - Competent :eight_spoked_asterisk:
         - Software Development Methodologies
             - Spiral
             - Extreme programming
