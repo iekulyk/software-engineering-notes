@@ -19,7 +19,7 @@ Learnign Path :
         - Software Development Methodologies :white_check_mark:
             - Spiral :white_check_mark:
             - Extreme programming :white_check_mark:
-        - Scrum vs Kanban: applicability
+        - Scrum vs Kanban: applicability :white_check_mark:
         - SAFe (Scaled Agile Framework)
         - Distributed teams coordination and collaboration
         - Test Driven Development
