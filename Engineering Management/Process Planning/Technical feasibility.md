@@ -6,10 +6,10 @@ Application development projects often have limited budgets and constrained time
 
 Evaluate the technical feasibility of an application design concept:
   - Evaluate the proof of concept
-  - Recommend the best technologies for the features and goals of the application. Considerations include Message Queuing, Web services, .NET Framework remoting, and so on.
-  - Weigh implementation considerations.
+  - Recommend the best technologies for the features and goals of the application. Considerations include Message Queuing, Web         services, .NET Framework remoting, and so on
+  - Weigh implementation considerations
   - Investigate existing solutions for similar business problems
-  
+
 
   - Recognize poor requirements and propose improvements
   - Evaluate a set of application requirements for their completeness and feasibility
