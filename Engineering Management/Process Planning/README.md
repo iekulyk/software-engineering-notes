@@ -16,9 +16,9 @@ Learnign Path :
         - Kanban :white_check_mark:
 		
     - Competent :eight_spoked_asterisk:
-        - Software Development Methodologies
-            - Spiral
-            - Extreme programming
+        - Software Development Methodologies :white_check_mark:
+            - Spiral :white_check_mark:
+            - Extreme programming :white_check_mark:
         - Scrum vs Kanban: applicability
         - SAFe (Scaled Agile Framework)
         - Distributed teams coordination and collaboration
