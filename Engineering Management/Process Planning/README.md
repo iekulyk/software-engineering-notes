@@ -21,9 +21,9 @@ Learnign Path :
             - Extreme programming :white_check_mark:
         - Scrum vs Kanban: applicability :white_check_mark:
         - SAFe (Scaled Agile Framework)
-        - Distributed teams coordination and collaboration
-        - Test Driven Development
-        - Feature Driven Development
+        - Distributed teams coordination and collaboration :white_check_mark:
+        - Test Driven Development :white_check_mark:
+        - Feature Driven Development :white_check_mark:
         - Engineering Process Planning
         - Evaluating technical feasibility
         - Defining unit-testing process
