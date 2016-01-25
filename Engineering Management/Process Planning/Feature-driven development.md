@@ -53,3 +53,18 @@ Feature-Driven Development is built on a core set of software engineering best p
 ||Develop Team Model|The MODELING TEAM selects a proposed TEAM MODEL or composes a model by merging ideas from the proposed models.|
 ||Refine Overall Object Model|Every so often, the OVERALL MODEL, consisting of an overall SEQUENCE DIAGRAM and a CLASS DIAGRAM, is REFINED with the new model shapes produced by iterations of the ‘Develop Team Model’ task above.|
 ||Write Model Notes|EXPLANATORY NOTES on detailed or complex model shapes and on significant model alternatives are made for future reference by the project.|
+|Build Feature List|Form Features List Team|he FEATURE LIST TEAM comprises the chief programmers from the MODELING TEAM in the process ‘Develop Overall Model’.|
+||Build Features List|he FEATURE LIST TEAM shall identify the FEATURE LIST using the knowledge obtained from the process ‘Develop Overall Model’. This is a simple functional decomposition into SUBJECT AREAS that come from the partitioning of the domain by the domain experts for their domain area walkthroughs in the process ‘Develop Overall Model’. It is decomposed into SUBJECT AREAS that comprise BUSINESS ACTIVITIES that comprise BUSINESS ACTIVITY steps (FEATURES).|
+|Plan By Feature|Form Planning Team|The PLANNING TEAM comprises the development manager plus the chief programmers|
+||Determine Development Sequence|The main tasks in the process ‘Plan By Feature’ are not a strict sequence. Like many PLANNING activities they are considered together, with REFINEMENTS made from one or more tasks and then considering the others again. The PLANNING TEAM shall assign a DATE (month and year only) for completion of each BUSINESS ACTIVITY. The identification of the BUSINESS ACTIVITY and the completion DATE (and thus the DEVELOPMENT SEQUENCE) is based on:
+  - Dependencies between FEATURES in terms of CLASSES involved;
+  - Balancing load across CLASS OWNERS;
+  - The complexity of the FEATURES to be implemented;
+  - Bringing forward high-risk or complex BUSINESS ACTIVITIES;
+  - Consideration of any external (visible) milestones such as betas, previews, feedback checkpoints and the "whole products" that
+  satisfy such milestones.|
+||Assign Business Activities to Chief Programmers|The PLANNING TEAM shall assign chief programmers as owners of BUSINESS ACTIVITIES. The assignment is based on:
+  - The DEVELOPMENT SEQUENCE;
+  - Dependencies between FEATURES in terms of CLASSES involved;
+  - Balancing load across CLASS OWNERS (remember that chief programmers are also CLASS OWNERS);
+  - The complexity of the FEATURES to be implemented.|
