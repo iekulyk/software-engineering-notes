@@ -24,7 +24,6 @@ Learnign Path :
         - Distributed teams coordination and collaboration :white_check_mark:
         - Test Driven Development :white_check_mark:
         - Feature Driven Development :white_check_mark:
-        - Engineering Process Planning
         - Evaluating technical feasibility
         - Defining unit-testing process
         - Defining code review process
