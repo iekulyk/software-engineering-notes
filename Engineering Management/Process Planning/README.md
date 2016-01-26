@@ -20,7 +20,7 @@ Learnign Path :
             - Spiral :white_check_mark:
             - Extreme programming :white_check_mark:
         - Scrum vs Kanban: applicability :white_check_mark:
-        - SAFe (Scaled Agile Framework)
+        - SAFe (Scaled Agile Framework) :white_check_mark:
         - Distributed teams coordination and collaboration :white_check_mark:
         - Test Driven Development :white_check_mark:
         - Feature Driven Development :white_check_mark:
