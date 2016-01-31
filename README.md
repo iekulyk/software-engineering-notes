@@ -5,7 +5,7 @@ Be A Pro
 Learnign Path : 
 
 - Engineering Management :eight_spoked_asterisk:
-    - Process Planning  :eight_spoked_asterisk:
+    - Process Planning  :white_check_mark:
     - Estimation  :eight_spoked_asterisk:
     
 - Software Requirements Engineering
