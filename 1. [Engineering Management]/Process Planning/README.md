@@ -4,7 +4,7 @@ Be A Pro
 
 Learnign Path : 
 
-- Process Planning :eight_spoked_asterisk:
+- Process Planning :white_check_mark:
 
     - Qualified :white_check_mark:
         - Software development process :white_check_mark:
@@ -15,7 +15,7 @@ Learnign Path :
         - Scrum :white_check_mark:
         - Kanban :white_check_mark:
 		
-    - Competent :eight_spoked_asterisk:
+    - Competent :white_check_mark:
         - Software Development Methodologies :white_check_mark:
             - Spiral :white_check_mark:
             - Extreme programming :white_check_mark:
@@ -24,9 +24,9 @@ Learnign Path :
         - Distributed teams coordination and collaboration :white_check_mark:
         - Test Driven Development :white_check_mark:
         - Feature Driven Development :white_check_mark:
-        - Evaluating technical feasibility :eight_spoked_asterisk:
-        - Defining unit-testing process
-        - Defining code review process
+        - Evaluating technical feasibility :white_check_mark:
+        - Defining unit-testing process :white_check_mark:
+        - Defining code review process :white_check_mark:
 
 ------------------------------------------------------------------------
 Finished branches will be marked with a :white_check_mark:
