@@ -4,10 +4,10 @@ Be A Pro
 
 Learnign Path : 
 
-- Estimation 
+- Estimation :eight_spoked_asterisk:
 
-    - Qualified 
-        - Scope Concept
+    - Qualified  :eight_spoked_asterisk:
+        - Scope Concept :white_check_mark:
         - Estimates, Targets, and Commitments 
         - Overestimate vs Underestimate 
         - Decomposition and Recomposition 
