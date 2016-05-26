@@ -24,8 +24,7 @@ Learnign Path :
     	- Architectural Patterns: IoC
     	- SOLID principles
     	- Anti-patterns
-    
-    
+    	
     	- Principles of Object Oriented Design
     	- Architectural Patterns: SOA and EDA
     	- Patterns of Enterprise Architecture Applications
