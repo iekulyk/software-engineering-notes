@@ -25,6 +25,7 @@ Learnign Path :
     	- SOLID principles
     	- Anti-patterns
     	
+    - Competent++
     	- Principles of Object Oriented Design
     	- Architectural Patterns: SOA and EDA
     	- Patterns of Enterprise Architecture Applications
