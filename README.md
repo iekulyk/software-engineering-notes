@@ -10,8 +10,8 @@ Learnign Path :
     
 - Software Requirements Engineering
 
-- Design
-    - OOD
+- Design :eight_spoked_asterisk:
+    - OOD :eight_spoked_asterisk:
     - DB Design
     - Modeling
     - Security
