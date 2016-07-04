@@ -6,16 +6,16 @@ Learnign Path :
 
 - OOD
 
-    - Qualified 
-    	- Abstraction
-    	- Encapsulation
-    	- Inheritance vs. Aggregation
-    	- Modularity
-    	- Polymorphism
-    	- Types vs. Classes
-    	- Abstraction Qualities
-    	- Separation of concerns principle
-    	- Single responsibility principle
+    - Qualified :white_check_mark:
+    	- Abstraction :white_check_mark:
+    	- Encapsulation :white_check_mark:
+    	- Inheritance vs. Aggregation :white_check_mark:
+    	- Modularity :white_check_mark:
+    	- Polymorphism :white_check_mark:
+    	- Types vs. Classes :white_check_mark:
+    	- Abstraction Qualities :white_check_mark:
+    	- Separation of concerns principle :white_check_mark:
+    	- Single responsibility principle :white_check_mark:
 		
     - Competent 
     	- GoF Design Patterns
