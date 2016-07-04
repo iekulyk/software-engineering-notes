@@ -15,3 +15,6 @@ I always think of a 'type' as an umbrella term for 'classes' and 'primitives'.
 int foo; // Type is int, class is nonexistent.
 
 MyClass foo; // Type is MyClass, class is MyClass
+
+--
+A type is an interface. An interface is a collection of methods which an object responds to. Different kinds of objects may share the same type. An object can have many types.
