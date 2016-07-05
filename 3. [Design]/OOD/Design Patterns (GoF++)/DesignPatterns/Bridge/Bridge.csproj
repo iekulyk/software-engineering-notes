@@ -43,8 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DotNetFullStackDevelopementTeam.cs" />
+    <Compile Include="IFullStackDevelopementTeam.cs" />
+    <Compile Include="ISoftwareCompany.cs" />
+    <Compile Include="NodeJsFullStackDevelopementTeam.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SoftwareCompany.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
