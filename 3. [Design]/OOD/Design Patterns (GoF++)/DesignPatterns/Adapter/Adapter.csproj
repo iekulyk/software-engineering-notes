@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapter.cs" />
+    <Compile Include="CharacterConverterConsumer.cs" />
+    <Compile Include="INewCharacterConverter.cs" />
+    <Compile Include="LegacyCodeConverter.cs" />
+    <Compile Include="NewCharacterConverter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

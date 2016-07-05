@@ -1,15 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Adapter
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            var newConverter = new NewCharacterConverter();
+            CharacterConverterConsumer.SetCharacterConverter(newConverter);
+
+            var legacyConverter = new LegacyCharacterConverter();
+            var adapter = new Adapter(legacyConverter);
+            CharacterConverterConsumer.SetCharacterConverter(adapter);
+
+            Console.ReadLine();
         }
     }
 }
