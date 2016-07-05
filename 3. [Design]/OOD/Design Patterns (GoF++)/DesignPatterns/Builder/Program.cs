@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Builder
 {
@@ -10,6 +6,16 @@ namespace Builder
     {
         static void Main(string[] args)
         {
+            var downhillBuilder = new DownhillBikeBuilder();
+            var bikeShop = new BikeShop();
+
+            bikeShop.SetBikeBuilder(downhillBuilder);
+            bikeShop.ConstructBike();
+
+            Bike bike = bikeShop.GetBike();
+
+            Console.Write(bike.ToString());
+            Console.ReadLine();
         }
     }
 }

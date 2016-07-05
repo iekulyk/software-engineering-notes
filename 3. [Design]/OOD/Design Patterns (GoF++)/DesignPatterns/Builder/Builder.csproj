@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bike.cs" />
+    <Compile Include="BikeBuilder.cs" />
+    <Compile Include="BikeShop.cs" />
+    <Compile Include="CrossCountryBikeBuilder.cs" />
+    <Compile Include="DownhillBikeBuilder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
