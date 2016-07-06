@@ -43,11 +43,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Car.cs" />
+    <Compile Include="ElectricCar.cs" />
+    <Compile Include="ElectricTractor.cs" />
+    <Compile Include="ElectricVehicleFactory.cs" />
+    <Compile Include="GasolineCar.cs" />
+    <Compile Include="GasolineTractor.cs" />
+    <Compile Include="GasolineVehicleFactory.cs" />
+    <Compile Include="IVehicleFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tractor.cs" />
+    <Compile Include="Vehicle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Decorator\Decorator.csproj">
+      <Project>{488FB008-255F-4FC3-B4CA-2BC10592A5D9}</Project>
+      <Name>Decorator</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
