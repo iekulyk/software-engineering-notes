@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BookingSystem.cs" />
+    <Compile Include="CarBooking.cs" />
+    <Compile Include="HotelBooking.cs" />
+    <Compile Include="PlaneBooking.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
