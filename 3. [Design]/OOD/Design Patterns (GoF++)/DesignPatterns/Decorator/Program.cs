@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Decorator
 {
@@ -10,6 +6,10 @@ namespace Decorator
     {
         static void Main(string[] args)
         {
+            var coolAmbulance = new AmbulanceCar(new Mercedes());
+            coolAmbulance.Go();
+
+            Console.ReadLine();
         }
     }
 }
