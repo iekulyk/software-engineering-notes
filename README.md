@@ -1,4 +1,4 @@
-# APro - **knowledge gathering for myself**
+# **Knowledge gathering for myself**
 
 Be A Pro
 
