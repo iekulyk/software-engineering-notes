@@ -6,13 +6,13 @@ Learnign Path :
 
 - Estimation :eight_spoked_asterisk:
 
-    - Qualified  :eight_spoked_asterisk:
+    - Qualified  :white_check_mark:
         - Scope Concept :white_check_mark:
-        - Estimates, Targets, and Commitments 
-        - Overestimate vs Underestimate 
-        - Decomposition and Recomposition 
-        - Analogy-based estimations 
-        - Story based estimations         
+        - Estimates, Targets, and Commitments :white_check_mark:
+        - Overestimate vs Underestimate :white_check_mark:
+        - Decomposition and Recomposition :white_check_mark:
+        - Analogy-based estimations :white_check_mark:
+        - Story based estimations         :white_check_mark:
 		
     - Competent 
         - Cone of Uncertainty 
