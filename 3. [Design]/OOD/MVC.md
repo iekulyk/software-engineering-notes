@@ -4,13 +4,13 @@ MVC
 Consider this pattern when developing software with a humancomputer
 interface
 
-Model–view–controller (MVC) is a software architectural pattern for implementing user interfaces on computers. It divides a given software application into three interconnected parts, so as to separate internal representations of information from the ways that information is presented to or accepted from the user.
+The Model-View-ControUer architectural pattern (MVC) divides an
+interactive application into three components. The model contains
+the core functionality and data. Views display information to the user.
+Controllers handle user input. Views and controllers together
+comprise the user interface. A change-propagatlon mechanism
+ensures consistency between the user interface and the model.
 
-- The model directly manages the data, logic and rules of the application.
-- A view can be any output representation of information, such as a chart or a diagram. Multiple views of the same information are possible, such as a bar chart for management and a tabular view for accountants.
-- The third part, the controller, accepts input and converts it to commands for the model or view.
-
----
 
 - The model component encapsulates core data and functionality.
 The model is independent of specific output representations or
