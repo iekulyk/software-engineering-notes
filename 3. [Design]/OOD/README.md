@@ -19,8 +19,8 @@ Learnign Path :
 		
     - Competent 
     	- GoF Design Patterns :eight_spoked_asterisk:
-    	- Architectural Patterns: Layered Architecture
-    	- Architectural Patterns: MVC
+    	- Architectural Patterns: Layered Architecture :white_check_mark:
+    	- Architectural Patterns: MVC :white_check_mark:
     	- Architectural Patterns: IoC
     	- SOLID principles
     	- Anti-patterns
