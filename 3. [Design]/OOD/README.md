@@ -18,7 +18,7 @@ Learnign Path :
     	- Single responsibility principle :white_check_mark:
 		
     - Competent 
-    	- GoF Design Patterns
+    	- GoF Design Patterns :eight_spoked_asterisk:
     	- Architectural Patterns: Layered Architecture
     	- Architectural Patterns: MVC
     	- Architectural Patterns: IoC
