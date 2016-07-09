@@ -22,7 +22,7 @@ Learnign Path :
     	- Architectural Patterns: Layered Architecture :white_check_mark:
     	- Architectural Patterns: MVC :white_check_mark:
     	- Architectural Patterns: IoC
-    	- SOLID principles
+    	- SOLID principles :white_check_mark:
     	- Anti-patterns
     	
     - Competent++
