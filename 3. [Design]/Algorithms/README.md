@@ -7,9 +7,21 @@ Learnign Path :
 - Algorithms
 
     - Qualified 
-        
+    	- Algorithms complexity
+    	- Array sorting methods
+    	- Tree structure
+    	- Binary search
+    	- Hash table
+    	- Stack, queue, linked list
 		
     - Competent 
+    	- Graphs basic
+    	- Mutithreading algorithms
+    	- Regular Expressions implementation using Nondeterministic finite-state automata
+	- String searching tries
+	- Searching strings algorithms
+	- Divide and conquer method
+	- Balanced trees
         
 
 ------------------------------------------------------------------------
