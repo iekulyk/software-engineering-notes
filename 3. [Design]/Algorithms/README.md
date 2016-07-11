@@ -18,10 +18,10 @@ Learnign Path :
     	- Graphs basic
     	- Mutithreading algorithms
     	- Regular Expressions implementation using Nondeterministic finite-state automata
-	- String searching tries
-	- Searching strings algorithms
-	- Divide and conquer method
-	- Balanced trees
+		- String searching tries
+		- Searching strings algorithms
+		- Divide and conquer method
+		- Balanced trees
         
 
 ------------------------------------------------------------------------
