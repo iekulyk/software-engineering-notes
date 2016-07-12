@@ -47,6 +47,10 @@ Learnign Path :
 
 
 ------------------------------------------------------------------------
+
+Each topic has 3 levels of competence, which may be covered
+each topic will have separate mark of completenes separated by "|"
+
 Finished branches will be marked with a :white_check_mark:
 
 In progress branches will be marked with a :eight_spoked_asterisk:
