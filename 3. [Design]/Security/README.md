@@ -8,11 +8,11 @@ Learnign Path :
 
     - Qualified 
     
-        - Information security
-        - Access Control Lists
-        - .NET Framework Cryptography Model
-        - DPAPI
-        - Authentication types
+        - Information security :white_check_mark:
+        - Access Control Lists :white_check_mark:
+        - .NET Framework Cryptography Model :eight_spoked_asterisk:
+        - DPAPI 
+        - Authentication types :eight_spoked_asterisk:
 		
     - Competent 
         
