@@ -12,9 +12,9 @@ Learnign Path :
 
 - Design :eight_spoked_asterisk:
     - OOD :eight_spoked_asterisk:
-    - DB Design
+    - DB Design 
     - Modeling
-    - Security
+    - Security :eight_spoked_asterisk:
     - Algorithms
     
 - Construction - Core 
