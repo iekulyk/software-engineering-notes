@@ -5,16 +5,16 @@ Be A Pro
 Learnign Path : 
 
 - Engineering Management :eight_spoked_asterisk:
-    - Process Planning  :white_check_mark:
-    - Estimation  :eight_spoked_asterisk:
+    - Process Planning  :white_check_mark: | :white_check_mark: 
+    - Estimation  :white_check_mark: | :eight_spoked_asterisk: 
     
 - Software Requirements Engineering
 
 - Design :eight_spoked_asterisk:
-    - OOD :eight_spoked_asterisk:
+    - OOD :white_check_mark: | :eight_spoked_asterisk: 
     - DB Design 
     - Modeling
-    - Security :eight_spoked_asterisk:
+    - Security :white_check_mark: | :eight_spoked_asterisk: 
     - Algorithms
     
 - Construction - Core 
