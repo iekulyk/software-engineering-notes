@@ -6,44 +6,43 @@ Learnign Path :
 
 - Engineering Management :eight_spoked_asterisk:
     - Process Planning  :white_check_mark: | :white_check_mark: 
-    - Estimation  :white_check_mark: | :eight_spoked_asterisk: 
+    - Estimation :white_check_mark: | :eight_spoked_asterisk: 
     
-- Software Requirements Engineering
+- Software Requirements Engineering :eight_spoked_asterisk:  | :eight_spoked_asterisk: 
 
 - Design :eight_spoked_asterisk:
     - OOD :white_check_mark: | :eight_spoked_asterisk: 
-    - DB Design 
-    - Modeling
+    - DB Design :eight_spoked_asterisk: |:eight_spoked_asterisk: 
+    - Modeling :eight_spoked_asterisk: |:eight_spoked_asterisk: 
     - Security :white_check_mark: | :eight_spoked_asterisk: 
-    - Algorithms
+    - Algorithms :eight_spoked_asterisk: 
     
 - Construction - Core 
-    - .NET C#
-    - Refactoring
-    - Concurrency
-    - Product depoloying
-    - Internationalization
-    - Networking
+    - .NET C# :eight_spoked_asterisk: |:eight_spoked_asterisk: 
+    - Refactoring :eight_spoked_asterisk: |:eight_spoked_asterisk: 
+    - Concurrency :eight_spoked_asterisk: |:eight_spoked_asterisk: 
+    - Product depoloying :eight_spoked_asterisk: |:eight_spoked_asterisk: 
+    - Internationalization :eight_spoked_asterisk: |:eight_spoked_asterisk: 
+    - Networking :eight_spoked_asterisk: 
 
 - Construction - Web
-    - Web server applications (.NET)
-    - Web Services (.NET)
-    - JavaScript - Core
-    - HTML
-    - CSS
-    - SOA
+    - Web server applications (.NET) :eight_spoked_asterisk: |:eight_spoked_asterisk: 
+    - Web Services (.NET) :eight_spoked_asterisk: |:eight_spoked_asterisk: 
+    - JavaScript - Core :eight_spoked_asterisk: |:eight_spoked_asterisk: 
+    - HTML :eight_spoked_asterisk: |:eight_spoked_asterisk: 
+    - CSS :eight_spoked_asterisk: |:eight_spoked_asterisk: 
     
 - Construction - DB
-    - SQL
-    - Data Access Layer
+    - SQL :eight_spoked_asterisk: |:eight_spoked_asterisk: 
+    - Data Access Layer :eight_spoked_asterisk: |:eight_spoked_asterisk: 
 
 - Verification
-    - Code Quality
-    - Automated Testing
+    - Code Quality :eight_spoked_asterisk: |:eight_spoked_asterisk: 
+    - Automated Testing :eight_spoked_asterisk: |:eight_spoked_asterisk: 
 
 - Configuration Management
-    - Product builds and Continious Integration
-    - Managing versions
+    - Product builds and Continious Integration :eight_spoked_asterisk: |:eight_spoked_asterisk: 
+    - Managing versions :eight_spoked_asterisk: |:eight_spoked_asterisk: 
 
 
 ------------------------------------------------------------------------
