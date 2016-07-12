@@ -74,6 +74,8 @@ With signed cookies, a server can tell if a cookie was modified by the client.
 
 **Tokens**
 
+---
+
 Nowadays JWT (JSON Web Token) is everywhere - still it is worth taking a look on potential security issues.
 
 JWT consists of three parts: 
@@ -81,6 +83,8 @@ JWT consists of three parts:
  - Header, containing the type of the token and the hashing algorithm
  - Payload, containing the claims
  - Signature, which can be calculated as follows if you chose HMAC SHA256: HMACSHA256( base64UrlEncode(header) + "." + base64UrlEncode(payload), secret)
+ - 
+ SON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. This information can be verified and trusted because it is digitally signed. JWTs can be signed using a secret (with the HMAC algorithm) or a public/private key pair using RSA.
  
  
 
