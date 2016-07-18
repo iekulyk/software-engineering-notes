@@ -9,3 +9,7 @@ In agile, we try to move from uncertainty to certainty in as short a cycle as po
 As you make a greater percentage of those decisions, you reduce the estimation uncertainty.
 
 An important—and difficult—concept is that the Cone of Uncertainty represents the best-case accuracy that is possible to have in software estimates at different points in a project. The Cone represents the error in estimates created by skilled estimators. It's easily possible to do worse. It isn't possible to be more accurate; it's only possible to be more lucky
+
+The Cone narrows only as you make decisions that eliminate variability
+
+defining the product vision (including committing to what you will not do) reduces variability. Defining requirements—again, including what you are not going to do—eliminates variability further. Designing the user interface helps to reduce the risk of variability arising from misunderstood requirements. Of course, if the product isn't really defined, or if the product definition gets redefined later, the Cone will widen, and estimation accuracy will be poorer.
