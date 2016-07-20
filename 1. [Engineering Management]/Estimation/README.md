@@ -19,10 +19,10 @@ Learnign Path :
         - Source of Estimation Errors  :white_check_mark:
         - Dis economies of Scale  :white_check_mark:
         - Count, Compute, Judge techniques  :white_check_mark:
-        - Delphi method
-        - Challenges with Estimating Size 
-        - Challenges with Estimating Effort 
-        - Challenges with Estimating Schedule 
+        - Delphi method :white_check_mark:
+        - Challenges with Estimating Size :white_check_mark:
+        - Challenges with Estimating Effort :white_check_mark:
+        - Challenges with Estimating Schedule :white_check_mark:
         - Story based scope definition: scoping project, release planning  
         - Documenting and presenting estimation results 
 		- PERT analysis 
