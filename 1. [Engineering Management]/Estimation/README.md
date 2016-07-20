@@ -14,11 +14,11 @@ Learnign Path :
         - Analogy-based estimations :white_check_mark:
         - Story based estimations         :white_check_mark:
 		
-    - Competent 
-        - Cone of Uncertainty 
-        - Source of Estimation Errors 
-        - Dis economies of Scale 
-        - Count, Compute, Judge techniques 
+    - Competent :eight_spoked_asterisk:
+        - Cone of Uncertainty  :white_check_mark:
+        - Source of Estimation Errors  :white_check_mark:
+        - Dis economies of Scale  :white_check_mark:
+        - Count, Compute, Judge techniques  :white_check_mark:
         - Delphi method
         - Challenges with Estimating Size 
         - Challenges with Estimating Effort 
