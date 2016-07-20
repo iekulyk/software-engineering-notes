@@ -22,7 +22,7 @@ Learnign Path :
         - Delphi method :white_check_mark:
         - Challenges with Estimating Size :white_check_mark:
         - Challenges with Estimating Effort :white_check_mark:
-        - Challenges with Estimating Schedule :white_check_mark:
+        - Challenges with Estimating Schedule 
         - Story based scope definition: scoping project, release planning  
         - Documenting and presenting estimation results 
 		- PERT analysis 
