@@ -24,7 +24,7 @@ Learnign Path :
         - Challenges with Estimating Effort :white_check_mark:
         - Challenges with Estimating Schedule :white_check_mark:
         - Story based scope definition: scoping project, release planning  
-        - Documenting and presenting estimation results 
+        - Documenting and presenting estimation results :white_check_mark:
 		- PERT analysis 
 
 ------------------------------------------------------------------------
