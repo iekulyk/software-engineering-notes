@@ -23,7 +23,7 @@ Learnign Path :
     	- Architectural Patterns: MVC :white_check_mark:
     	- Architectural Patterns: IoC
     	- SOLID principles :white_check_mark:
-    	- Anti-patterns
+    	- Anti-patterns - https://sourcemaking.com/antipatterns
     	
     - Competent++
     	- Principles of Object Oriented Design
