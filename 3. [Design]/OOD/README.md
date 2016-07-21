@@ -27,7 +27,8 @@ Learnign Path :
     	
     - Competent++
     	- Principles of Object Oriented Design
-    	- Architectural Patterns: SOA and EDA
+    	- Architectural Patterns: SOA 
+    	- Architectural Patterns: EDA
     	- Patterns of Enterprise Architecture Applications
     	- MS Architecture Application Guide
     	- Cloud types and service models
