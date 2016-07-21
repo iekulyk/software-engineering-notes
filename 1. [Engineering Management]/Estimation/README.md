@@ -4,7 +4,7 @@ Be A Pro
 
 Learnign Path : 
 
-- Estimation :eight_spoked_asterisk:
+- Estimation ::white_check_mark:
 
     - Qualified  :white_check_mark:
         - Scope Concept :white_check_mark:
@@ -14,7 +14,7 @@ Learnign Path :
         - Analogy-based estimations :white_check_mark:
         - Story based estimations         :white_check_mark:
 		
-    - Competent :eight_spoked_asterisk:
+    - Competent :white_check_mark:
         - Cone of Uncertainty  :white_check_mark:
         - Source of Estimation Errors  :white_check_mark:
         - Dis economies of Scale  :white_check_mark:
@@ -23,7 +23,7 @@ Learnign Path :
         - Challenges with Estimating Size :white_check_mark:
         - Challenges with Estimating Effort :white_check_mark:
         - Challenges with Estimating Schedule :white_check_mark:
-        - Story based scope definition: scoping project, release planning  
+        - Story based scope definition: scoping project, release planning  :white_check_mark:
         - Documenting and presenting estimation results :white_check_mark:
 		- PERT analysis :white_check_mark:
 
