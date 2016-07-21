@@ -6,7 +6,7 @@ Learnign Path :
 
 - Engineering Management :eight_spoked_asterisk:
     - Process Planning  :white_check_mark: | :white_check_mark: | :eight_spoked_asterisk:
-    - Estimation :white_check_mark: | :eight_spoked_asterisk: 
+    - Estimation :white_check_mark: | :white_check_mark:
     
 - Software Requirements Engineering :eight_spoked_asterisk:  | :eight_spoked_asterisk:  | :eight_spoked_asterisk:
 
