@@ -21,7 +21,7 @@ Learnign Path :
     	- GoF Design Patterns :eight_spoked_asterisk:
     	- Architectural Patterns: Layered Architecture :white_check_mark:
     	- Architectural Patterns: MVC :white_check_mark:
-    	- Architectural Patterns: IoC
+    	- Architectural Patterns: IoC :white_check_mark:
     	- SOLID principles :white_check_mark:
     	- Anti-patterns - https://sourcemaking.com/antipatterns
     	
