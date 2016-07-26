@@ -7,9 +7,21 @@ Learnign Path :
 - DB Design
 
     - Qualified 
-        
+    	- Relational terminology: Entities , Attributes , Records 
+    	- Relationships 
+    	- Understanding ER notation
+    	- Understanding normalization concept
+    	- Data Integrity
 		
     - Competent 
+    	- Understanding RDBMS architecture
+    	- Transactions: ACID
+    	- Transactions: Recovery
+    	- Transactions: Locking
+    	- Transactions: Isolation
+    	- Transactions: Concurrency
+    	- Optimization database (performance, volume) 
+    	- Optimizing the Database Design by Denormalizing
         
 
 ------------------------------------------------------------------------
