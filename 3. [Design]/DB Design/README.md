@@ -7,9 +7,8 @@ Learnign Path :
 - DB Design
 
     - Qualified 
-    	- Relational terminology: Entities , Attributes , Records 
-    	- Relationships 
-    	- Understanding ER notation
+    	- Relational terminology: Entities , Attributes , Records :white_check_mark:
+    	- Relationships :white_check_mark:
     	- Understanding normalization concept
     	- Data Integrity
 		
