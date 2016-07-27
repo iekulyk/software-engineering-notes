@@ -28,3 +28,20 @@ It is sometimes the case—although it doesn't happen often—that there are mul
 ###First Normal Form
 
 A relation is in first normal form if the domains on which its attributes are defined are scalar. This is at once both the simplest and most difficult concept in data modeling. The principle is straightforward: each attribute of a tuple must contain a single value. But what constitutes a single value? In the relation shown in Figure 2-12, the Items attribute obviously contains multiple values and is therefore not in first normal form. But the issue is not always so clear cut.
+
+---
+
+###Second Normal Form1
+
+A relation is in second normal form if it is in first normal form and in addition all its attributes are dependent on the entire candidate key. The key in Figure 2-15, for example, is {ProductName, SupplierName}, but the SupplierPhoneNumber field is dependent only on the SupplierName, not on the full composite key.
+
+Logically, this is an issue of not trying to represent two distinct entities, Products and Suppliers, in a single relation. By separating the representation, you're not only eliminating the redundancy, you're also providing a mechanism for storing information that you couldn't otherwise capture. In the example in Figure 2-16, it becomes possible to capture information about Suppliers before obtaining any information regarding their products. That could not be done in the first relation, since neither component of a primary key can be empty.
+
+The other way that people get into trouble with second normal form is in confusing constraints that happen to be true at any given moment with those that are true for all time. The relation shown in Figure 2-17, for example, assumes that a supplier has only one address, which might be true at the moment but will not necessarily remain true in the future.
+
+---
+
+###Third Normal Form
+
+A relation is in third normal form if it is in second normal form and in addition all nonkey attributes are mutually independent. Let's take the example of a company that has a single salesperson in each state. Given the relation shown in Figure 2-18, there is a dependency between Region and Salesperson, but neither of these attributes is reasonably a candidate key for the relation.
+
