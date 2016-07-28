@@ -29,3 +29,10 @@ The data definition language defines and declares the database object, while the
 ###The Conceptual Level
 
 This level comes between the external and the internal levels. The conceptual level represents the entire database as a whole, and is used by the DBA. This level is the view of the data “as it really is”. The user’s view of the data is constrained by the language that they are using. At the conceptual level, the data is viewed without any of these constraints.
+
+---
+
+###The Internal Level
+
+This level deals with the physical storage of data, and is the lowest level of the architecture. The internal level describes the physical sequence of the stored records.
+
