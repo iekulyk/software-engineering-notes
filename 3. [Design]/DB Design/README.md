@@ -9,8 +9,8 @@ Learnign Path :
     - Qualified 
     	- Relational terminology: Entities , Attributes , Records :white_check_mark:
     	- Relationships :white_check_mark:
-    	- Understanding normalization concept
-    	- Data Integrity
+    	- Understanding normalization concept :white_check_mark:
+    	- Data Integrity :white_check_mark:
 		
     - Competent 
     	- Understanding RDBMS architecture
