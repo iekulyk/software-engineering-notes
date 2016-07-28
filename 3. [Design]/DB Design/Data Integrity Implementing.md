@@ -95,3 +95,9 @@ Interestingly, neither the Jet database engine nor SQL Server requires that a pr
 
 SQL Server also provides a procedural mechanism for providing entity-level integrity that the Jet database engine does not provide. Triggers are little bits of code (specifically, Transact-SQL code) that are automatically executed when a specific event occurs. Multiple triggers can be defined for each INSERT, UPDATE, or DELETE event, and a given trigger can be defined for multiple events.
 
+---
+
+###Referential Integrity
+
+While their support for entity integrity is substantively the same, the Jet database engine and SQL Server implement different paradigms for supporting referential integrity. SQL Server allows foreign key constraints to be declared as part of the table definition. A foreign key constraint establishes a reference to a candidate key in another table, the primary table. Once the reference is established, SQL Server prevents the creation of orphan records by rejecting any insertions that do not have a matching record in the primary table. Nulls are not prohibited in foreign key columns, although they can be prevented if the column participates in the primary key of the table, which is often the case. SQL Server also prohibits the deletion of records in the primary table if they have any matching foreign key values.
+
