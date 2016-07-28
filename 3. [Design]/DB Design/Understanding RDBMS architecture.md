@@ -36,3 +36,37 @@ This level comes between the external and the internal levels. The conceptual le
 
 This level deals with the physical storage of data, and is the lowest level of the architecture. The internal level describes the physical sequence of the stored records.
 
+---
+
+###THE DATABASE ADMINISTRATOR
+
+  - Defines conceptual schema
+  - Defines internal schema
+  - Communicates with users
+  - Defines security and integrity checks
+  - Defines backup and recovery procedures
+  - Monitors performance and decide when to reorganize the database
+ 
+---
+
+###THE DATABASE MANAGEMENT SYSTEM
+
+  1. A user issues an access request
+  2. DBMS interpretes the request
+  3. DBMS performs external/conceptual and conceptual/interal mappings
+  4. DBMS executes the necessary operations on stored database
+
+####THUS DBMS MUST SUPPORT####
+
+  - data definition
+  - data manipulation
+  - routine and unplanned requests
+  - data security and integrity
+  - data recovery and concurrency
+  - data dictionary
+  - performance tuning
+
+---
+
+###DISTRIBUTED DATABASE SYSTEMS
+
