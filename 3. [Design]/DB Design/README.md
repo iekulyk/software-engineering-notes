@@ -11,6 +11,7 @@ Learnign Path :
     	- Relationships :white_check_mark:
     	- Understanding normalization concept :white_check_mark:
     	- Data Integrity :white_check_mark:
+    	- Implementing Data Integrity :white_check_mark:
 		
     - Competent 
     	- Understanding RDBMS architecture
