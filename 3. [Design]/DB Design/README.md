@@ -14,8 +14,8 @@ Learnign Path :
     	- Implementing Data Integrity :white_check_mark:
 		
     - Competent 
-    	- Understanding RDBMS architecture
-    	- Transactions: ACID
+    	- Understanding RDBMS architecture :white_check_mark:
+    	- Transactions: ACID :white_check_mark:
     	- Transactions: Recovery
     	- Transactions: Locking
     	- Transactions: Isolation
