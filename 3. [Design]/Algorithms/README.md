@@ -11,10 +11,10 @@ Learnign Path :
     	- Array sorting methods :white_check_mark:
     	- Tree structure :white_check_mark:
     	- Binary search :white_check_mark:
-    	- Hash table
-    	- Stack
-    	- Queue 
-    	- Linked List
+    	- Hash table :eight_spoked_asterisk:
+    	- Stack :white_check_mark:
+    	- Queue :white_check_mark:
+    	- Linked List :white_check_mark:
 		
     - Competent 
     	- Graphs basic
