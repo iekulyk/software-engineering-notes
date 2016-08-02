@@ -15,7 +15,7 @@ Learnign Path :
     - DB Design :white_check_mark: | :eight_spoked_asterisk: 
     - Modeling :eight_spoked_asterisk: | :eight_spoked_asterisk: 
     - Security :white_check_mark: | :eight_spoked_asterisk: 
-    - Algorithms ::white_check_mark:
+    - Algorithms :white_check_mark:
     
 - Construction - Core 
     - .NET C# :eight_spoked_asterisk: | :eight_spoked_asterisk: | :eight_spoked_asterisk:
