@@ -12,7 +12,9 @@ Learnign Path :
     	- Tree structure :white_check_mark:
     	- Binary search :white_check_mark:
     	- Hash table
-    	- Stack, queue, linked list
+    	- Stack
+    	- Queue 
+    	- Linked List
 		
     - Competent 
     	- Graphs basic
