@@ -6,11 +6,11 @@ Learnign Path :
 
 - Algorithms
 
-    - Qualified 
-    	- Algorithms complexity
-    	- Array sorting methods
-    	- Tree structure
-    	- Binary search
+    - Qualified :eight_spoked_asterisk:
+    	- Algorithms complexity :white_check_mark:
+    	- Array sorting methods :white_check_mark:
+    	- Tree structure :white_check_mark:
+    	- Binary search :white_check_mark:
     	- Hash table
     	- Stack, queue, linked list
 		
