@@ -195,11 +195,11 @@ You should develop the skill to see time and space optimizations, as well as the
 |Singly-Linked List|	O(n)|	O(n)|	O(1)|	O(1)|	O(n)|	O(n)|	O(1)|	O(1)|	O(n)|
 |Doubly-Linked List|	O(n)|	O(n)|	O(1)|	O(1)|	O(n)|	O(n)|	O(1)|	O(1)|	O(n)|
 |Skip List|	O(log(n))|	O(log(n))|	O(log(n))|	O(log(n))|	O(n)|	O(n)|	O(n)|	O(n)|	O(n log(n))|
-|Hash Table|	N/A	O(1)|	O(1)|	O(1)|	N/A	O(n)|	O(n)|	O(n)|	O(n)|
+|Hash Table|	N/A|	O(1)|	O(1)|	O(1)|	N/A|	O(n)|	O(n)|	O(n)|	O(n)|
 |Binary Search Tree|	O(log(n))|	O(log(n))|	O(log(n))|	O(log(n))|	O(n)|	O(n)|	O(n)|	O(n)|	O(n)|
-|Cartesian Tree|	N/A|	O(log(n))|	O(log(n))|	O(log(n))|	N/A	O(n)|	O(n)|	O(n)|	O(n)|
+|Cartesian Tree|	N/A|	O(log(n))|	O(log(n))|	O(log(n))|	N/A|	O(n)|	O(n)|	O(n)|	O(n)|
 |B-Tree|	O(log(n))|	O(log(n))|	O(log(n))|	O(log(n))|	O(log(n))|	O(log(n))|	O(log(n))|	O(log(n))|	O(n)|
 |Red-Black Tree|	O(log(n))|	O(log(n))|	O(log(n))|	O(log(n))|	O(log(n))|	O(log(n))|	O(log(n))|	O(log(n))|	O(n)|
-|Splay Tree|	N/A	O(log(n))|	O(log(n))|	O(log(n))|	N/A	O(log(n))|	O(log(n))|	O(log(n))|	O(n)|
+|Splay Tree|	N/A|	O(log(n))|	O(log(n))|	O(log(n))|	N/A|	O(log(n))|	O(log(n))|	O(log(n))|	O(n)|
 |AVL Tree|	O(log(n))|	O(log(n))|	O(log(n))|	O(log(n))|	O(log(n))|	O(log(n))|	O(log(n))|	O(log(n))|	O(n)|
 |KD Tree|	O(log(n))|	O(log(n))|	O(log(n))|	O(log(n))|	O(n)|	O(n)|	O(n)|	O(n)|	O(n)|
