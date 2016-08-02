@@ -4,7 +4,7 @@ Be A Pro
 
 Learnign Path : 
 
-- Engineering Management :eight_spoked_asterisk:
+- Engineering Management :white_check_mark: 
     - Process Planning  :white_check_mark: | :white_check_mark: 
     - Estimation :white_check_mark: | :white_check_mark:
     
