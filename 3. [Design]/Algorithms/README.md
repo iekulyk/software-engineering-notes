@@ -11,7 +11,7 @@ Learnign Path :
     	- Array sorting methods :white_check_mark:
     	- Tree structure :white_check_mark:
     	- Binary search :white_check_mark:
-    	- Hash table :eight_spoked_asterisk:
+    	- Hash table :white_check_mark:
     	- Stack :white_check_mark:
     	- Queue :white_check_mark:
     	- Linked List :white_check_mark:
