@@ -6,7 +6,7 @@ Learnign Path :
 
 - Algorithms
 
-    - Qualified :eight_spoked_asterisk:
+    - Qualified :white_check_mark:
     	- Algorithms complexity :white_check_mark:
     	- Array sorting methods :white_check_mark:
     	- Tree structure :white_check_mark:
