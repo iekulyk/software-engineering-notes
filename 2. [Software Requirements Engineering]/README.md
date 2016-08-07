@@ -1,8 +1,3 @@
-# APro
-
-Be A Pro
-
-Learnign Path : 
 
 - Software Requirements Engineering
 
