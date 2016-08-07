@@ -1,8 +1,3 @@
-# APro
-
-Be A Pro
-
-Learnign Path : 
 
 - Process Planning :white_check_mark:
 
