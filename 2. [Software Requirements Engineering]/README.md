@@ -9,14 +9,13 @@
     	- Benefits from a High-Quality Requirements Process :white_check_mark:
 		
     - Competent 
-    	- System requirements
-    	- Non-functional requirements
-    	- Product champion 
-    	- User classes and their characteristics 
-    	- Software Quality Attributes 
-    	- Assumptions, constraints and their roles 
-    	- Basic Modeling techniques
-    	- Requirements artifacts:Product Vision and Scope document
+    	- System requirements :white_check_mark:
+    	- Non-functional requirements :white_check_mark:
+    	- Product champion :white_check_mark:
+    	- User classes and their characteristics :white_check_mark:
+    	- Software Quality Attributes :white_check_mark:
+    	- Assumptions, constraints and their roles :white_check_mark:
+    	- Requirements artifacts:Product Vision and Scope document :white_check_mark:
         
 
 ------------------------------------------------------------------------
