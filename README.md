@@ -1,8 +1,4 @@
-# **Knowledge gathering for myself**
-
-Be A Pro
-
-Learnign Path : 
+# **Engineering notes for myself**
 
 - Engineering Management :white_check_mark: 
     - Process Planning  :white_check_mark: | :white_check_mark: 
