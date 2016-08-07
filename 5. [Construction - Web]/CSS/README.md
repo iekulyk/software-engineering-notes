@@ -1,8 +1,4 @@
-# APro
 
-Be A Pro
-
-Learnign Path : 
 
 - CSS 
 
