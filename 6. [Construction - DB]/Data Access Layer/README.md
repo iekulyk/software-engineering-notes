@@ -17,7 +17,8 @@
        	- Model First VS Database First VS Code First Approaches
        	- Entity Data Modeling Fundamentals 
 	- Querying an Entity Data Model
-	
+
+ - Competent 	
 	- Manage transactions
 	- Manage data integrity
 	- Executing asynchronous queries
@@ -43,7 +44,7 @@
 	- NET Micro ORMs
 	- Dapper
 
-    - Competent 
+   
         
 
 ------------------------------------------------------------------------
