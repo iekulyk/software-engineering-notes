@@ -12,7 +12,7 @@ Learnign Path :
 
 - Design :eight_spoked_asterisk:
     - OOD :white_check_mark: | :white_check_mark: 
-    - DB Design :white_check_mark: | :eight_spoked_asterisk: 
+    - DB Design :white_check_mark: | :white_check_mark:
     - Modeling :eight_spoked_asterisk: | :eight_spoked_asterisk: 
     - Security :white_check_mark: 
     - Algorithms :white_check_mark:
