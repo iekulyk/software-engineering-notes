@@ -4,7 +4,7 @@
     - Process Planning  :white_check_mark: | :white_check_mark: 
     - Estimation :white_check_mark: | :white_check_mark:
     
-- Software Requirements Engineering :eight_spoked_asterisk:  | :eight_spoked_asterisk:  
+- Software Requirements Engineering :white_check_mark:  | :white_check_mark:
 
 - Design :eight_spoked_asterisk:
     - OOD :white_check_mark: | :white_check_mark: 
