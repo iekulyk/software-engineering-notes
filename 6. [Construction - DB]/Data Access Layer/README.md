@@ -18,6 +18,7 @@
        	- Entity Data Modeling Fundamentals 
 	- Querying an Entity Data Model
 
+
  - Competent 	
 	- Manage transactions
 	- Manage data integrity
