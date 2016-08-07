@@ -2,9 +2,10 @@
 - .NET C# 
 
     - Qualified 
+    
         - Declare namespaces, classes, interfaces, static and instance class members
         - Types casting
-        - Value and reference types. Class vs Struct usage.
+        - Value and reference types. Class vs Struct usage
 	- Properties and automatic properties
 	- Structured Exception Handling
 	- Collections and Generics
@@ -27,6 +28,7 @@
 
 		
     - Competent 
+    
         - Building and Configuring Class Libraries
         - Type Reflection
         - Late Binding
