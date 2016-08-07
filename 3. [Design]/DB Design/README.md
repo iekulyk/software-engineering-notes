@@ -15,11 +15,11 @@ Learnign Path :
 		
     - Competent 
     	- Understanding RDBMS architecture :white_check_mark:
-    	- Transactions: ACID :white_check_mark:
-    	- Transactions: Recovery
-    	- Transactions: Locking
-    	- Transactions: Isolation
-    	- Transactions: Concurrency
+    	- Transactions: ACID  :white_check_mark:
+    	- Transactions: Recovery :white_check_mark:
+    	- Transactions: Locking :white_check_mark:
+    	- Transactions: Isolation :white_check_mark:
+    	- Transactions: Concurrency :white_check_mark:
     	- Optimization database (performance, volume) 
     	- Optimizing the Database Design by Denormalizing
         
