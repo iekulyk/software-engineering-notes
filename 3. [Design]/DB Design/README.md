@@ -20,8 +20,8 @@ Learnign Path :
     	- Transactions: Locking :white_check_mark:
     	- Transactions: Isolation :white_check_mark:
     	- Transactions: Concurrency :white_check_mark:
-    	- Optimization database (performance, volume) 
-    	- Optimizing the Database Design by Denormalizing
+    	- Optimization database (performance, volume) :white_check_mark:
+    	- Optimizing the Database Design by Denormalizing :white_check_mark:
         
 
 ------------------------------------------------------------------------
