@@ -1,13 +1,12 @@
 
 - Software Requirements Engineering
 
-    - Qualified 
-    	- Requirement definition 
-    	- Levels of Requirements: Business, User, and Functional requirements
-    	- Most common requirements risks 
-    	- Characteristics of Excellent Requirements 
-    	- Benefits from a High-Quality Requirements Process 
-    	- Root Causes of Project Success and Failure
+    - Qualified :white_check_mark:
+    	- Requirement definition :white_check_mark:
+    	- Levels of Requirements: Business, User, and Functional requirements :white_check_mark:
+    	- Most common requirements risks :white_check_mark:
+    	- Characteristics of Excellent Requirements :white_check_mark:
+    	- Benefits from a High-Quality Requirements Process :white_check_mark:
 		
     - Competent 
     	- System requirements
