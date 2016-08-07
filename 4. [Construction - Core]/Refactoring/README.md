@@ -2,6 +2,7 @@
 
 - Refactoring 
 
+
     - Qualified 
         - Refactoring Concept (what/when/why)
 	- Smells Catalog and possible re-factorings
