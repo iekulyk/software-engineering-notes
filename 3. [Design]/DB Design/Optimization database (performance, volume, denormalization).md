@@ -1,4 +1,4 @@
-Optimization database (performance, volume)
+Optimization database (performance, volume, Denormalization)
 ---
 
 [Performance](http://www.codeproject.com/Articles/34372/Top-steps-to-optimize-data-access-in-SQL-Server) 
