@@ -1,4 +1,4 @@
-Implementing stored procedures, user-defined functions, triggers
+Stored procedures, user-defined functions, triggers
 ---
 
 stored procedures are linear or sequential programs. The syntax varies from implementation to implementation, but some common features can be emphasized. Stored procedures can accept parameters and allow local variable declarations; they are structured and allow the use of submodules; also, they allow repeated and conditional statement execution
