@@ -3,7 +3,7 @@
 - SQL 
 
     - Qualified 
-        - Tables, relationships, keys, constraints understanding
+        - Tables, relationships, keys, constraints
         - DDL, DML, DCL understanding
         - SQL data types 
         - SQL operators, functions
