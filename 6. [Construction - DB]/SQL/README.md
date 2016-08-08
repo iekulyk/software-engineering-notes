@@ -8,9 +8,9 @@
         - DDL, DML, DCL understanding :white_check_mark:
         - SQL data types  :white_check_mark:
         - Data manipulation (insert, update, delete) :white_check_mark:
-        - Retrieving data, Aggregations
+        - Retrieving data, Aggregations :white_check_mark:
         - Joins understanding
-        - Combining the results of multiple queries (union, except, intersect, minus, subqueries)
+        - Combining the results of multiple queries :white_check_mark:
         - Sessions, transactions, locks
         - Implementing stored procedures, user-defined functions, triggers
         - Cursors
