@@ -3,7 +3,8 @@
 - SQL 
 
     - Qualified 
-        - Tables, relationships, keys, constraints - creating, modifying, removing database objects
+        - Creating database objects
+        - Altering and Destroying RDBMS Objects
         - DDL, DML, DCL understanding
         - SQL data types 
         - SQL operators, functions
