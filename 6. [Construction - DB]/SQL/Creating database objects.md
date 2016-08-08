@@ -1,4 +1,4 @@
-Tables, relationships, keys, constraints - creating, modifying, removing database objects
+Creating database objects
 ---
 
 ##Tables
