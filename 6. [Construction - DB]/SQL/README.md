@@ -3,17 +3,13 @@
 - SQL 
 
     - Qualified 
-        - Creating database objects
-        - Altering and Destroying RDBMS Objects
-        - DDL, DML, DCL understanding
-        - SQL data types 
-        - SQL operators, functions
-        - Data manipulation (insert, update, delete)
-        - Retrieving data (simple select statement)
+        - Creating database objects :white_check_mark:
+        - Altering and Destroying RDBMS Objects :white_check_mark:
+        - DDL, DML, DCL understanding :white_check_mark:
+        - SQL data types  :white_check_mark:
+        - Data manipulation (insert, update, delete) :white_check_mark:
+        - Retrieving data, Aggregations
         - Joins understanding
-		
-    - Competent 
-        - Aggregations (ORDER BY, GROUP BY, HAVING, SUM, COUNT, AVG, etc)
         - Combining the results of multiple queries (union, except, intersect, minus, subqueries)
         - Sessions, transactions, locks
         - Implementing stored procedures, user-defined functions, triggers
