@@ -740,3 +740,75 @@ this setting is added into a new connection string called nwMars.
         <add name="nwMars" providerName="System.Data.SqlClient" connectionString= "Data Source=.\SQLEXPRESS; AttachDbFilename=|DataDirectory|Northwind.MDF; Integrated Security=True; User Instance=True;MultipleActiveResultSets=True"/>
 </connectionStrings>
 ```
+
+
+---
+
+
+###Performing Bulk Copy Operations with a SqlBulkCopy Object
+
+Often, you need to copy large amounts of data from one location to another. Most of the database
+servers provide a means to copy from one database to another, either by a Windows
+GUI interface such as the SQL Server Enterprise Manager or by a command-line tool such as
+the SQL Server Bulk Copy Program (BCP.exe). In addition to using the tools provided by the
+database vendor, you also can write your own bulk copy program, using the SqlBulkCopy
+class.
+
+The SqlBulkCopy class provides a high-performance method for copying data to a table
+in a SQL Server database. The source of the copy is constrained by the overloads of the
+WriteToServer
+method, which can accept an array of DataRow objects, an object that implements
+the IDataReader interface, a DataTable object, or DataTable and DataRowState.
+variety of parameters means you can retrieve data from most
+locations.
+
+---
+
+###DbDataAdapter Object
+
+You use the DbDataAdapter object to retrieve and update data between a data table and a
+data store. DbDataAdapter is derived from the DataAdapter class and is the base class of the
+provider-specific DbDataAdapter classes
+
+DbDataAdapter has a SelectCommand property you use when retrieving the data.
+SelectCommand
+must contain a valid DbCommand object, which must have a valid connection.
+Internally, SelectCommand has an ExecuteReader method, which is executed to get a
+DbDataReader object to populate a DataTable object.
+
+DbDataAdapter also has InsertCommand, UpdateCommand, and DeleteCommand properties,
+which might contain DbCommand objects. You use these commands if you want to save
+DataTable changes back to the data store. You need not create these command objects if you
+need only to read data from the data store, but if you create one of these latter three commands,
+you must create all four of them (select, insert, update, and delete).
+
+When DbDataAdapter is used to retrieve or update data, it examines the status of the connection.
+If the connection is open, the DbDataAdapter uses the open connection and leaves
+the connection open. If the connection is closed, DbDataAdapter opens the connection, uses
+it, and then closes it automatically. If you never open the connection, you don’t have to close
+the connection. However, if you have many data adapters that will be used in one operation,
+you can get better performance by manually opening the connection before you call all the
+data adapters; just be sure to close the connection when you’re done.
+
+---
+
+###Saving Changes to the Database Using the Update Method
+
+The Update method saves the data table modifications to the database by retrieving the
+changes from the data table and then using the respective InsertCommand, UpdateCommand,
+or DeleteCommand property to send the appropriate changes to the database on a row-byrow
+basis. The Update method retrieves the DataRow objects that have changed by looking
+at the RowState property of each row. If RowState is anything but Unchanged, the Update
+method sends the change to the database.
+
+For the Update method to work, all four commands must be assigned to the
+DbDataAdapter
+object. Normally, this means creating individual DbCommand objects
+for each command. You can easily create the commands by using the DbDataAdapter
+Configuration
+Wizard, which starts when a DbDataAdapter object is dropped onto the
+Windows
+form. The wizard can generate stored procedures for all four commands.
+
+---
+
