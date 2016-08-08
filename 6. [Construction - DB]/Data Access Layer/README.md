@@ -1,36 +1,28 @@
 
 
-- Data Access Layer 
 
-    - Qualified 
-        - Manage connection strings and objects
-        - Working with data providers
-        - Connect to a data source by using a generic data access interface
-        - Handle and diagnose database connection exceptions
-        - Manage exceptions when selecting, modifying data
-        - Build command objects and query data from data sources
-        - Retrieve data source by using the DataReader
-        - Manage data by using the DataAdapter and TableAdapter
-        - Updating data
-        - Entity Framework
-       	- LINQ
-       	- Model First VS Database First VS Code First Approaches
-       	- Entity Data Modeling Fundamentals 
-	- Querying an Entity Data Model
-
-
- - Competent 	
-	- Manage transactions
-	- Manage data integrity
-	- Executing asynchronous queries
+  - ADO.NET
+    
+  	- ADO.NET Connected Classes :white_check_mark:
+  	- Handling Exceptions 
+  	- Manage transactions
+  	- Manage data integrity
+  	- Executing asynchronous queries
+  	- Caching data
+  	- Manage update conflicts between online data and offline data
+  	- Implement Synchronization Services
+  	- Working with untyped DataSets and Data Tables
+  	- Exposing DataTableReader from DataTable and DataSet
+  	- Working with strongly typed DataSets
+	
+<br />
+  - Entity Framework
+  
+  	- Querying an Entity Data Model
+	- Model First VS Database First VS Code First Approaches
+	- Entity Data Modeling Fundamentals 
+	- Query data sources by using ORM
 	- Transform data by using ORM
-	- Caching data
-	- Manage update conflicts between online data and offline data
-	- Implement Synchronization Services
-	- Working with untyped DataSets and Data Tables
-	- Exposing DataTableReader from DataTable and DataSet
-	- Working with strongly typed DataSets
-	- Entity Framework
 	- Manipulating data using LINQ
 	- Understanding LINQ compilation
 	- Loading Entities and Navigation Properties
@@ -42,8 +34,9 @@
 	- Code First Migrations and Deployment with the Entity Framework
 	- Async and Stored Procedures with the Entity Framework
 	- Handling Concurrency with the Entity Framework 6 
-	- NET Micro ORMs
-	- Dapper
+	
+  - NET Micro ORMs
+  - Dapper
 
    
         
