@@ -12,7 +12,6 @@
         - Joins understanding
 		
     - Competent 
-        - Creating, modifying, removing database objects
         - Aggregations (ORDER BY, GROUP BY, HAVING, SUM, COUNT, AVG, etc)
         - Combining the results of multiple queries (union, except, intersect, minus, subqueries)
         - Sessions, transactions, locks
