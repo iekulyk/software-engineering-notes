@@ -151,7 +151,7 @@ END
 
 ### STORED PROCEDURE VS FUNCTIONS
 
-!(ss)[http://i.stack.imgur.com/4o6XG.png]
+![ss](http://i.stack.imgur.com/4o6XG.png)
 
 ---
 
