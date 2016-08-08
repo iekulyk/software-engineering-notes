@@ -11,9 +11,9 @@
         - Retrieving data, Aggregations :white_check_mark:
         - Joins understanding :white_check_mark:
         - Combining the results of multiple queries :white_check_mark:
-        - Sessions, transactions, locks
-        - Implementing stored procedures, user-defined functions, triggers
-        - Cursors
+        - Sessions, transactions, locks :white_check_mark:
+        - Implementing stored procedures, user-defined functions, triggers :white_check_mark:
+        - Cursors :white_check_mark:
 
 ------------------------------------------------------------------------
 Finished branches will be marked with a :white_check_mark:
