@@ -6,15 +6,35 @@ Creating database objects
 Tables are the central and the most important objects in any relational database. The primary purpose of any database is to hold data that is logically stored in tables.
 
 ```
-CREATE [{GLOBAL | LOCAL}
-			 TEMPORARY] TABLE <table_name> (
-			 <column_name> [<domain_name> | <datatype>
-			 [<size1>[,<size2>] ] [<column_constraint>,...] [DEFAULT
-			 <default_value>] [COLLATE <collation_name>],...
-			 [<table_constraints>] [ON COMMIT {DELETE | PRESERVE} ROWS]
-			 )
+CREATE TABLE
+			 [[<database_name>.]<owner>.][#|##]<table_name> (
+			 <column_name> <datatype> [<size1>[,<size2>]] [COLLATE
+			 <collation_name>] [[DEFAULT <default_value>] | [IDENTITY [
+			 ([<seed>, <increment>])
+			 
+			 [NOT FOR REPLICATION] ] ] [<column_constraint>,...],...
+			 [<table_constraint>,...] [ON <filegroup>] [TEXTIMAGE_ON
+			 <filegroup>] )
 ```
-There are two types of temporary tables: local and global. Local temporary tables are visible only to their creators during the same connection to an instance of SQL Server as when the tables were first created or referenced. Local temporary tables are deleted after the user disconnects from the instance of SQL Server. Global temporary tables are visible to any user and any connection after they are created, and are deleted when all users that are referencing the table disconnect from the instance of SQL Server.
+The MS SQL Server syntax used to create a temporary table is not consistent with SQL99 standards. To create a local temporary table, you prefix it with the pound sign (#); the double pound sign (##) indicates a global temporary table.
+
+Local temporary tables are visible only to the current session; both the table data and table definition are deleted when the user logs off : 
+
+
+```
+CREATE TABLE
+				#tmp_customer_order_totals ( customer_name VARCHAR(30), customer_total MONEY
+				)
+```
+
+Global temporary tables are visible to all users; they are destroyed after every user who was referencing the table disconnects from the SQL Server:
+
+
+```
+CREATE TABLE
+				##tmp_customer_order_totals ( customer_name VARCHAR(30),
+				customer_total MONEY )
+```
 
 ---
 
