@@ -9,7 +9,7 @@
         - SQL data types  :white_check_mark:
         - Data manipulation (insert, update, delete) :white_check_mark:
         - Retrieving data, Aggregations :white_check_mark:
-        - Joins understanding
+        - Joins understanding :white_check_mark:
         - Combining the results of multiple queries :white_check_mark:
         - Sessions, transactions, locks
         - Implementing stored procedures, user-defined functions, triggers
