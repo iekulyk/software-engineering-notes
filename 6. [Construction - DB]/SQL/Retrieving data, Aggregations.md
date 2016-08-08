@@ -318,3 +318,51 @@ which calculates the average of the values. In this case, you are
 going to calculate the average quantity per order.
 
 ```
+SELECT   ordline_ordhdrid_fn, 
+         AVG(ordline_ordqty_n) AS AVG_QTY_PER_ORDER
+FROM     order_line
+GROUP BY ordline_ordhdrid_fn
+```
+
+---
+
+###HAVING
+
+The HAVING clause used exclusively with the GROUP BY clause provides a means of additional selectivity. Imagine that you need to select not all records in your GROUP BY query but only those that would have their grouped value greater than 750. Adding additional criterion to the WHERE clause would not help, as the value by which we could limit the records is calculated using GROUP BY and is unavailable outside it before the query has completed execution. The HAVING clause used within the GROUP BY clause allows us to add this additional criterion to the results of the GROUP BY operation
+
+```
+SELECT    ordline_ordhdrid_fn, 
+          SUM(ordline_ordqty_n) TOT_QTY_PER_ORDER
+FROM      order_line
+GROUP BY  ordline_ordhdrid_fn
+HAVING   SUM(ordline_ordqty_n) > 750
+```
+
+We could have used a column ORDLINE_ORDHDRID_FN, without the SUM aggregate function in the HAVING clause to restrict the returned records by some other criteria, but we cannot use just any column from the SELECT clause: It also has to be listed in the GROUP BY clause to be used with HAVING. Here is a query example that sums up order quantities grouped by order header ID only if they fall into a specified list of orders: 
+
+```
+SELECT   ordline_ordhdrid_fn, 
+         SUM(ordline_ordqty_n) TOT_QTY_PER_ORDER
+FROM     order_line
+GROUP BY ordline_ordhdrid_fn
+HAVING   ordline_ordhdrid_fn IN (30607,30608,30611,30622)
+```
+
+While GROUP BY would consider the null values in the columns by which the grouping is performed a valid group, this is not the way the NULLs are treated by the aggregate functions. Aggregate functions simply exclude the NULL records — they will not make it to the final result.
+
+---
+
+###ORDER BY Clause
+
+The query returns results matching the criteria unsorted — i.e., in the order they've been found in the table. To produce sorted output — alphabetically or numerically — you would use an ORDER BY clause. The functionality of this clause is identical across all "big-three" databases.
+
+```
+SELECT cust_name_s, 
+            cust_alias_s, 
+            cust_status_s
+FROM        customer
+ORDER BY    cust_name_s;
+```
+
+The results could be sorted in either ascending or descending order. To sort in descending order, you must specify keyword DESC after the column name; to sort in ascending order you may use ASC keyword (or omit it altogether, as it is done in the above query, since ascending is the default sorting order). 
+
