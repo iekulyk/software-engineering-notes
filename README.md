@@ -29,7 +29,7 @@
     - CSS :eight_spoked_asterisk: 
     
 - Construction - DB
-    - SQL :eight_spoked_asterisk: | :eight_spoked_asterisk: 
+    - SQL :white_check_mark: | :white_check_mark: 
     - Data Access Layer :eight_spoked_asterisk: | :eight_spoked_asterisk: 
 
 - Verification
