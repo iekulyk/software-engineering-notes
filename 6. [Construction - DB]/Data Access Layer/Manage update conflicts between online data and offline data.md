@@ -154,9 +154,83 @@ from the source. All this information helps Sync Services identify the changes s
 synchronization.
 
 
+The next screen is the DataSource Configuration Wizard. This window enables you to
+choose between implementing a typed data set or using the Entity Framework. Select
+DataSet
+and, on the next screen, select the Tables node, which selects the Customers table
+and the offline overhead tables.
 
+After the wizard has completed, you can add traditional ADO.NET code to load a data set
+with the customers and bind the Customers DataTable to a DataGrid, as shown in the following
+code sample.
 
+```
+private CustomersTableAdapter northwindDataSetCustomersTableAdapter = new CustomersTableAdapter();
 
+private void mnuGetOfflineData_Click(object sender, RoutedEventArgs e)
+{
+    northwindDataSetCustomersTableAdapter.Fill(northwindDataSet.Customers);
+    dg.ItemsSource = northwindDataSet.Customers;
+}
+```
+
+When running this code, you will see that the DataGrid control, called dg, is populated
+with customers. The customers came from the local cache, but this local cache is not being
+updated. You can verify that the local cache is not being updated by changing the
+ContactName
+of the first customer and then restarting the program. You’ll see that the
+change was not persisted. The following code saves the changes to the local cache.
+
+```
+private void mnuSaveOfflineData_Click(object sender, RoutedEventArgs e)
+{
+    northwindDataSetCustomersTableAdapter.Update(northwindDataSet.Customers);
+    MessageBox.Show("Saved");
+}
+```
+
+This code sample saves the customers to the local cache. If you run the application, make
+changes, and then click the menu option to save, you see a message stating that the customers
+were saved. If you stop running the application and restart the application, you see the
+changed data, thus proving that the changes were persisted.
+
+The only problem with the previous code sample is that the changes were saved only to
+the local cache; the changes weren’t sent to SQL Server. If you open SQL Management Studio
+and look at the Customers table, you see that Customer still has the original values for all
+columns. To synchronize the local cache with SQL Server, add the following sample code.
+
+```
+private void mnuSyncOfflineData_Click(object sender, RoutedEventArgs e)
+{
+    var syncAgent = new NorthwindLocalDataCacheSyncAgent();
+    syncAgent.Customers.SyncDirection = SyncDirection.Bidirectional;
+    var syncStats = syncAgent.Synchronize();
+    northwindDataSet.Customers.Merge(
+    northwindDataSetCustomersTableAdapter.GetData());
+    MessageBox.Show("In Sync");
+}
+```
+
+If you run this code sample, the local cache will be synchronized with the SQL Server database.
+This code starts by creating a NorthwindLocalDataCacheSyncAgent object. This class
+was created by the wizard and inherits from the SqlCeClientSyncProvider class. You provide
+each table with an enumeration value that specifies SyncDirection
+
+  - Bidirectional : The first synchronization downloads the schema and data from the
+server. Subsequent synchronizations upload changes from the client,
+followed by downloading changes from the server
+
+  - UploadOnly : The first synchronization downloads the schema and data from the
+server. Subsequent synchronizations upload changes from the client.
+
+  - DownloadOnly : The first synchronization downloads the schema and data from the
+server. Subsequent synchronizations download changes from the
+server.
+
+  - Snapshot : The client downloads the complete set of data every time synchronization
+takes place.
+
+---
 
 
 
