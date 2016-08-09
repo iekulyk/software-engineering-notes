@@ -4,8 +4,8 @@
   - ADO.NET
     
   	- ADO.NET Connected Classes :white_check_mark:
-  	- Handling Exceptions 
-  	- Manage transactions
+  	- Handling Exceptions :white_check_mark:
+  	- Manage transactions :white_check_mark:
   	- Manage data integrity
   	- Executing asynchronous queries
   	- Caching data
