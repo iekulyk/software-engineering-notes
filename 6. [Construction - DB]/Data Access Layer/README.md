@@ -7,7 +7,7 @@
   	- Handling Exceptions :white_check_mark:
   	- Manage transactions :white_check_mark:
   	- Manage data integrity
-  	- Executing asynchronous queries
+  	- Executing asynchronous queries :white_check_mark:
   	- Caching data
   	- Manage update conflicts between online data and offline data
   	- Implement Synchronization Services
