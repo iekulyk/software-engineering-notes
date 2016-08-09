@@ -4,15 +4,12 @@
   - ADO.NET
     
   	- ADO.NET Connected Classes :white_check_mark:
+  	- ADO.NET Disconnected Classes
   	- Handling Exceptions :white_check_mark:
   	- Manage transactions :white_check_mark:
-  	- Manage data integrity
   	- Executing asynchronous queries :white_check_mark:
-  	- Caching data
   	- Manage update conflicts between online data and offline data
   	- Implement Synchronization Services
-  	- Working with untyped DataSets and Data Tables
-  	- Exposing DataTableReader from DataTable and DataSet
   	- Working with strongly typed DataSets
 	
 <br />
