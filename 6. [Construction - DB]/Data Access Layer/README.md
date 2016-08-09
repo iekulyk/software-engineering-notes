@@ -13,8 +13,8 @@
 <br />
   - Entity Framework
   
-	- Model First VS Database First VS Code First Approaches
-	- Entity Data Modeling Fundamentals 
+	- Model First VS Database First VS Code First Approaches :white_check_mark:
+	- Entity Data Modeling Fundamentals  :white_check_mark:
   	- Querying an Entity Data Model
 	- Manipulating data using LINQ
 	- Understanding LINQ compilation
