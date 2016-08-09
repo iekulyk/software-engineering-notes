@@ -13,11 +13,9 @@
 <br />
   - Entity Framework
   
-	- Query data sources by using ORM
 	- Model First VS Database First VS Code First Approaches
 	- Entity Data Modeling Fundamentals 
   	- Querying an Entity Data Model
-	- Transform data by using ORM
 	- Manipulating data using LINQ
 	- Understanding LINQ compilation
 	- Loading Entities and Navigation Properties
