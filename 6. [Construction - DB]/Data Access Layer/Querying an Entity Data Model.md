@@ -452,8 +452,59 @@ public class Worker
  public string Name { get; set; }
  public virtual ICollection<Accident> Accidents { get; set; }
 }
-
-
 ```
 
+```
+public class Accident
+{
+ public int AccidentId { get; set; }
+ public string Description { get; set; }
+ public int? Severity { get; set; }
+ public int WorkerId { get; set; }
+ public virtual Worker Worker { get; set; }
+}
+```
 
+```
+public class EFRecipesEntities : DbContext
+{
+ public EFRecipesEntities() : base("ConnectionString") {}
+
+ public DbSet<Accident> Accidents { get; set; }
+ public DbSet<Worker> Workers { get; set; }
+ protected override void OnModelCreating(DbModelBuilder modelBuilder)
+ {
+  modelBuilder.Entity<Accident>().ToTable("Chapter3.Accident");
+  modelBuilder.Entity<Worker>().ToTable("Chapter3.Worker");
+  base.OnModelCreating(modelBuilder);
+ }
+}
+```
+
+```
+using (var context = new EFRecipesEntities())
+{
+ // explicitly disable lazy loading
+ context.Configuration.LazyLoadingEnabled = false;
+ var query = from w in context.Workers
+   select new
+   {
+    Worker = w,
+    Accidents = w.Accidents.Where(a => a.Severity > 2)
+   };
+ query.ToList();
+ var workers = query.Select(r => r.Worker);
+ Console.WriteLine("Workers with serious accidents...");
+ foreach (var worker in workers)
+ {
+ Console.WriteLine("{0} had the following accidents", worker.Name);
+  if (worker.Accidents.Count == 0)
+ Console.WriteLine("\t--None--");
+foreach (var accident in worker.Accidents)
+{
+Console.WriteLine("\t{0}, severity: {1}",
+accident.Description, accident.Severity.ToString());
+}
+}
+}
+```
