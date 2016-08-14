@@ -508,3 +508,93 @@ accident.Description, accident.Severity.ToString());
 }
 }
 ```
+
+---
+
+###Applying a Left-Outer Join
+
+You want to combine the properties of two entities using a left-outer join
+
+```
+var products = from p in context.Products
+join t in context.TopSellings on
+   // note how we project the results together into another
+   // sequence, entitled 'g' and apply the DefaultIfEmpty method
+   p.ProductID equals t.ProductID into g
+   from tps in g.DefaultIfEmpty()
+   orderby tps.Rating descending
+   select new
+   {
+      Name = p.Name,
+      Rating = tps.Rating == null ? 0 : tps.Rating
+   };
+```
+
+---
+
+###Paging and Filtering
+
+You want to create a query with a filter and paging.
+
+---
+
+```
+string match = "Ro";
+int pageIndex = 0;
+int pageSize = 3;
+var customers = context.Customers.Where(c => c.Name.StartsWith(match))
+ .OrderBy(c => c.Name)
+ .Skip(pageIndex * pageSize)
+ .Take(pageSize);
+ ```
+ 
+ ```
+ string match = "Ro%";
+int pageIndex = 0;
+int pageSize = 3;
+
+var esql = @"select value c from Customers as c
+   where c.Name like @Name
+   order by c.Name
+   skip @Skip limit @Limit";
+
+var customers =
+    ((IObjectContextAdapter)context).ObjectContext.CreateQuery<Customer>(esql, new[]
+    {
+    new ObjectParameter("Name",match),
+    new ObjectParameter("Skip",pageIndex * pageSize),
+    new ObjectParameter("Limit",pageSize)
+    });
+ ```
+ 
+ ---
+ 
+ ###Grouping by Date
+ 
+ You have an entity type with a DateTime property, and you want to group instances of this type based on just the date
+portion of the property.
+
+---
+
+```
+public class Registration
+{
+   public int RegistrationId { get; set; }
+   public string StudentName { get; set; }
+   public DateTime? RegistrationDate { get; set; }
+}
+```
+
+```
+var groups = from r in context.Registrations
+     // leverage built-in TruncateTime function to extract date portion
+     group r by DbFunctions.TruncateTime(r.RegistrationDate)
+     into g
+     select g;
+```
+
+---
+
+
+
+
